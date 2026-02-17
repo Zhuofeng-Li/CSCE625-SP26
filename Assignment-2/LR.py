@@ -136,9 +136,9 @@ def linear_regression(X, Y):
     tilde_X = np.concatenate((X, np.ones((1, N))), 0) # add 1 to the end of each data instance
 
     ### Your job starts here ###
-
-
-
+    tilde_w = np.matmul(np.linalg.inv(np.matmul(tilde_X, tilde_X.transpose())), np.matmul(tilde_X, Y))
+    w = tilde_w[:D, :]
+    b = tilde_w[D, 0]
     ### Your job ends here ###
     return w, b
 
