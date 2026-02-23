@@ -2,7 +2,7 @@
 
 ## Submission and implementation instructions
 
-* Due date and time: April 1st (Tuesday), 11:59 pm CST
+* Due date and time: March 17th (Tuesday), 11:59 pm CST
 
 * Expected time commitment: 10 hrs
 
